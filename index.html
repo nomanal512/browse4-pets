@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Browse4Pets</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
@@ -19,7 +20,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                        'pet-primary': '#FFDC26'
+                        'pet-primary': '#FFDC26',
                     }
                 }
             }
@@ -27,13 +28,6 @@
     </script>
 
 
-
-    <style>
-        .font-adlam-display {
-            font-family: "ADLaM Display", serif;
-
-        }
-    </style>
 </head>
 
 <body class="font-adlam-display">
@@ -77,26 +71,122 @@
             </div>
         </nav>
 <!--hero-->
-       <div class="lg:flex m-12">
-        <div>
-            <h1 class="text-5xl font-bold">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h1>
-            <p class="py-6 text-gray-500">
-                Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and
+       <div class="background">
+
+        <div class="px-12 py-40">
+            <h1 class="text-6xl font-bold">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h1>
+            <p class="py-6 text-gray-400">
+                Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and
                 make tails wag with joy!
             </p>
             <button class="btn bg-pet-primary">Find a pet</button>
+
+            <img class="lg:hidden w-full md:hidden" src="c1-assets/cat-big.png" alt="">
             
         </div>
-        <div>
-            <img class="w-[1500px]" src="c1-assets/cat-big.png" alt="">
-        </div>
+       
        </div> 
+
+
+
 
 
        
     </header>
 
-    <main>
+
+          <main>
+           <div class="m-12">
+            <h1 class="font-bold text-2xl mb-12">Browse By Categories</h1>
+            <div class="grid grid-cols-2 lg:grid-cols-6 w-auto">
+                
+                
+
+                <div class="card bg-[#F9DF8A] w-[180px] h-[240px] shadow-xl m-4 justify-between items-center">
+                    <figure class="px-10 pt-10">
+                      <img class="w-20 rounded-full bg-white"
+                        src="c1-assets/dog-cartoon.png"
+                        alt="Shoes"
+                        class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Dog</h2>
+                      <p>3 itmes</p>
+                      
+                    </div>
+            </div>
+            <div class="card bg-[#F9DF8A] w-[180px] h-[240px] shadow-xl m-4">
+                <figure class="px-10 pt-10">
+                  <img class="w-20 rounded-full bg-white"
+                    src="c1-assets/fish-cartoon.png"
+                    alt="Shoes"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Fish</h2>
+                  <p>3 itmes</p>
+                  
+                </div>
+        </div>
+        <div class="card bg-[#F9DF8A] w-[180px] h-[240px] shadow-xl m-4">
+            <figure class="px-10 pt-10">
+              <img class="w-20 rounded-full bg-white"
+                src="c1-assets/cat-cartoon.png"
+                alt="Shoes"
+                class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Cat</h2>
+              <p>3 itmes</p>
+              
+            </div>
+    </div>
+    <div class="card bg-[#F9DF8A] w-[180px] h-[240px] shadow-xl m-4">
+        <figure class="px-10 pt-10">
+          <img class="w-20 rounded-full bg-white"
+            src="c1-assets/bird-cartoon.png"
+            alt="Shoes"
+            class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Birds</h2>
+          <p>3 itmes</p>
+          
+        </div>
+</div>
+<div class="card bg-[#F9DF8A] w-[180px] h-[240px] shadow-xl m-4">
+    <figure class="px-10 pt-10">
+      <img class="w-20 rounded-full bg-white"
+        src="c1-assets/mouse-cartoon.png"
+        alt="Shoes"
+        class="rounded-xl" />
+    </figure>
+    <div class="card-body items-center text-center">
+      <h2 class="card-title">Small pet</h2>
+      <p>3 itmes</p>
+      
+    </div>
+</div>
+<div class="card bg-[#F9DF8A] w-[180px] h-[240px] shadow-xl m-4">
+    <figure class="px-10 pt-10">
+      <img class="w-20 rounded-full bg-white"
+        src="c1-assets/rabbit-cartoon.png"
+        alt="Shoes"
+        class="rounded-xl" />
+    </figure>
+    <div class="card-body items-center text-center">
+      <h2 class="card-title">Rabbit</h2>
+      <p>2 itmes</p>
+      
+    </div>
+</div>
+            </div>
+           </div>
+
+        
+              
+            
+          
 
     </main>
 

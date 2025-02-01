@@ -1,0 +1,24 @@
+.font-adlam-display {
+    font-family: "ADLaM Display", serif;
+
+}
+
+.background{
+    background-image: url(c1-assets/cat-big.png);
+    
+    background-repeat: no-repeat;
+    
+    background-position: 10%;
+    background-position-x: center;
+  
+    
+    
+}
+
+
+@media (max-width: 640px) {
+    .background{
+        background-image: none;
+    }
+    
+}
